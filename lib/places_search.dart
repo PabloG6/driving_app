@@ -30,13 +30,13 @@ class _PlaceSearchState extends State<PlaceSearch> {
                   if(tripState.requestedPredictions == null) {
                     return Container();
                   }
-                 Prediction prediction = tripState.requestedPredictions[index];
+//                 Prediction prediction = tripState.requestedPredictions[index];
                  return Container(
                    child: ListTile(
-                     title: Text("${prediction.structuredFormatting.mainText}",),
-                     subtitle: Text("${prediction.description}"),
+                     title: Text("Hello World",),
+                     subtitle: Text("Lorem Ipsum bullshit text."),
                      onTap: () {
-                       //
+                       
                      }
                    )
                  );

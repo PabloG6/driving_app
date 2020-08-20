@@ -1,0 +1,5 @@
+class RideRequest {
+  static toJson() {
+
+  }
+}
